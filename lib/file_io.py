@@ -1,5 +1,5 @@
 def write_file(file_name, file_content):
-    pass
+    with open(f'{file_name}.txt', 'w') as f:
 
 def append_file(file_name, append_content):
     pass
