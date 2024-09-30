@@ -7,4 +7,4 @@ def append_file(file_name, append_content):
         f.write(append_content)
 
 def read_file(file_name):
-    pass
+    with open(f'{file_name}.txt') as f:
